@@ -12,3 +12,17 @@ Calcula el Fib de un número pasado como parámetro y muestra un mensaje:
 
 Nota: evita calcular números altos.
 */
+
+function fibonacci(n) {
+    const result = [0, 1];
+    if (n <= 0) {
+        return 0;
+    } else if (n === 1) {
+        return 1;
+    }
+}
+console.log(fibonacci);
+
+showContent(20, fibonacci);
+
+

@@ -14,3 +14,16 @@ Ejemplo: "Hello world"
 }
 Nota: siempre letras minúsculas y sin tildes (para simplificar)
 */
+
+function letterCounting(text) {
+    text = text.toLowerCase();                 // Convert to lowercase
+    let counter = {};                         // Initialize an empty object
+    for (let i = 0; i < text.length; i++) {  // Loop through the string
+        if (text >= 'a' && text <= 'z') {
+            counter[text] = (counter[text])
+        }
+    }
+}
+return counter;
+
+showContent(19, counter);

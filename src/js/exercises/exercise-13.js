@@ -22,3 +22,6 @@ Agrupa en un array las peliculas por categorias:
     }
 ]
 */
+
+let categorygroup = 
+showContent(13,);
