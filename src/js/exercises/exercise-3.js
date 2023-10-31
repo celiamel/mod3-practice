@@ -13,7 +13,7 @@ function vowelCount() {             //Function is declared
   //Length give us the count of the vowels
 }
 
-console.log=("Number of vowels is" + vowelCount());   //Result: Number of Vowels is 6
+console.log=("Number of vowels is" + vowelCount());   
 
 showContent(3,"Number of vowels is" + vowelCount);
 

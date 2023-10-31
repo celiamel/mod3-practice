@@ -14,7 +14,7 @@ function checkParity(number) {
 }
 
 // Function to test with any number.
-checkParity(34); // Result: Number 34 is even
-checkParity(13); // Result: Number 13 is odd
+checkParity(34); 
+checkParity(13); 
 
 showContent(2, checkParity(34), checkParity(13));
