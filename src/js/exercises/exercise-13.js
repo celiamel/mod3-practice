@@ -23,5 +23,14 @@ Agrupa en un array las peliculas por categorias:
 ]
 */
 
-let categorygroup = 
-showContent(13,);
+
+function filterGroupOfCategories() {
+    let arrayGroupOfCategories =
+        let arrayGroupOfCategories = [];
+    for (let i = 0; i < groupOfCategories.length; i++) {
+
+    }
+    return filterGroupOfCategories;
+}
+
+showContent(13, arrayOfGroupOfCategorie);

@@ -1,4 +1,4 @@
-/*  DONE
+/*  
 EJERCICIO 5:
 Escribe una función llamada "repetitions" que recibe de entrada una cadena de texto y 
 devuelve otra cadena con cada letra repetida tantas veces como la posición que ocupa 

@@ -14,3 +14,17 @@ function isPalindrome(text) {
 }
 
 showContent(7, isPalindrome);
+
+function isAPalindromo(){
+    let text = "Dábale arroz a la zorra el abad";
+    text = transformText(text);
+    text = replaceText(text);
+    let text1 = text;
+    text1 = reverseText(text);    
+    if (text === text1){    
+        return (`Es un palindromo`);        
+    } else {
+        return(`No es un palindromo`);    
+    }
+    }
+    showContent(7, isAPalindromo());

@@ -1,10 +1,12 @@
-/* DONE
+/* 
 EJERCICIO 11:
 Ordena las peliculas por valoracion (propiedad "rating") de mayor a menor
 */
 
-movies.sort((a, b) => b.rating - a.rating);
+function sortMoviesRating() {
+    const Rating = movies.map((movie) => movie.rating);
+    const sortMoviesRating = Rating.sort();
+    return sortMoviesRating;
+}
 
-console.log(movies)
-
-showContent(11,movies);
+showContent(11, sortMoviesRating());
