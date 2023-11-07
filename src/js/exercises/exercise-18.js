@@ -6,10 +6,15 @@ por almohadilla (#) y las palabras sin espacios comenzando la primera letra en m
 Ejemplo: "Programando en Javascript" se transforma en "#ProgramandoEnJavascript"
 */
 
-function transformToHashtag(text) {
-    let words = text.split('');  // Splits the string into an array
-
-    
+function transformToHashtag(string) {
+    string = string.trim();
+    let words = string.split("");
+    let hashtag = "";
+    for (let word of words) {
+        let firstWord = word.charAt(0).toUpperCase();
+        let restOfTheWords
+    }
+    return hashtag;
 }
 
 showContent(18, transformToHashtag);

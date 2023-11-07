@@ -21,6 +21,7 @@ function fibonacci(n) {
         return 1;
     }
 }
+
 console.log(fibonacci);
 
 showContent(20, fibonacci);

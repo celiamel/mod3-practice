@@ -25,10 +25,11 @@ Agrupa en un array las peliculas por categorias:
 
 
 function filterGroupOfCategories() {
-    let arrayGroupOfCategories =
-        let arrayGroupOfCategories = [];
+    let arrayGroupOfCategories = Object.values(categories);
+    let arrayGroupOfCategories = [];
     for (let i = 0; i < groupOfCategories.length; i++) {
-
+        const filterCategories = movies.filter((movie) => movie.category === categoryName);
+        arrayGroupOfCategories.push()
     }
     return filterGroupOfCategories;
 }
